@@ -4,7 +4,8 @@
 	"version": "1.0",
 	"description": "Save links and share them easily.",
 	"action": {
-		"default_popup": "popup.html"
+		"default_popup": "popup.html",
+		"default_icon": "icons.png"
 	},
 	"permissions": ["storage", "activeTab", "tabs"],
 	"background": {
