@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "Link Saver",
+	"version": "1.0",
+	"description": "Save links and share them easily.",
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"permissions": ["storage", "activeTab", "tabs"],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
